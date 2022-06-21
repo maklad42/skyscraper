@@ -16,6 +16,15 @@ Skyscrapers: ToDo
 
 [ ] Each input cell contains two divs - pencil entry : 3x3 grid - final
 
+[ ] Pencil : grey text
+[ ] Pen : black text
+
+[ ] Use arrow keys to move around cells
+
+[ ] Check for edge of board
+
+[ ] Use number keys to add value (pen/pencil)
+
 [ ] Create code to add or remove all notes in pencil cell
 
 [ ] Enable switching between pencil and final mode
