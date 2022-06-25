@@ -42,3 +42,12 @@ nav ul li {
   text-align: center;
   cursor: pointer;
 }
+
+.board-wrapper {
+  width: 90vw;
+  max-width: 500px;
+  height: 90vw;
+  max-height: 500px;
+  background-color: orange;
+  margin: 50px auto;
+}
