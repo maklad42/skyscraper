@@ -50,4 +50,35 @@ nav ul li {
   max-height: 500px;
   background-color: orange;
   margin: 50px auto;
+  text-align: center;
+}
+
+.size {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: stretch;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+
+.size .board-type {
+  border: 2px solid teal;
+  background-color: darkolivegreen;
+  color: aliceblue;
+  margin: 15px;
+}
+
+.board-four {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 5px;
+  width: 90%;
+  justify-items: stretch;
+  margin: auto;
+}
+
+.square {
+  background-color: aliceblue;
+  color: darkgray;
+  height: 70px;
 }
