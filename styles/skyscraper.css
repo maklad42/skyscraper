@@ -46,8 +46,8 @@ nav ul li {
 .board-wrapper {
   width: 90vw;
   max-width: 500px;
-  height: 90vw;
-  max-height: 500px;
+  height: calc(90vw + 35px);
+  max-height: 530px;
   background-color: orange;
   margin: 50px auto;
   text-align: center;
@@ -81,4 +81,20 @@ nav ul li {
   background-color: aliceblue;
   color: darkgray;
   height: 70px;
+}
+
+.square.clues .clue {
+  line-height: 70px;
+  font-size: 35px;
+}
+
+.square.answer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: stretch;
+}
+
+.square.answer .clue {
+  color: grey;
 }
